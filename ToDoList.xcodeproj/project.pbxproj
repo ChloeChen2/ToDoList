@@ -13,6 +13,8 @@
 		8912855C2886F48500FB31E5 /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8912855A2886F48500FB31E5 /* ToDoList.xcdatamodeld */; };
 		8912855E2886F48600FB31E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8912855D2886F48600FB31E5 /* Assets.xcassets */; };
 		891285612886F48600FB31E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8912855F2886F48600FB31E5 /* LaunchScreen.storyboard */; };
+		8912858C2887466600FB31E5 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8912858B2887466500FB31E5 /* ToDoTableViewController.swift */; };
+		8912858E288746B800FB31E5 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8912858D288746B800FB31E5 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8912855D2886F48600FB31E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		891285602886F48600FB31E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		891285622886F48600FB31E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8912858B2887466500FB31E5 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		8912858D288746B800FB31E5 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				8912855F2886F48600FB31E5 /* LaunchScreen.storyboard */,
 				891285622886F48600FB31E5 /* Info.plist */,
 				8912855A2886F48500FB31E5 /* ToDoList.xcdatamodeld */,
+				8912858B2887466500FB31E5 /* ToDoTableViewController.swift */,
+				8912858D288746B800FB31E5 /* ToDo.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				891285522886F48500FB31E5 /* AppDelegate.swift in Sources */,
+				8912858E288746B800FB31E5 /* ToDo.swift in Sources */,
+				8912858C2887466600FB31E5 /* ToDoTableViewController.swift in Sources */,
 				891285542886F48500FB31E5 /* SceneDelegate.swift in Sources */,
 				8912855C2886F48500FB31E5 /* ToDoList.xcdatamodeld in Sources */,
 			);
